@@ -122,12 +122,7 @@ body, button, input, select, textarea {
 }
 
 html {
-  background: #111 url(../img/dark_wall.png);
-  height:100%;
-}
-body {
-  background-color: rgba(0,0,0,.65);
-  height:100%;
+  background:#111112;
 }
 
 header {
@@ -153,12 +148,4 @@ header h2 {
   margin: 0 20px;
   display:block;
   letter-spacing: 0.1em;
-}
-
-
-@media all and (-webkit-min-device-pixel-ratio: 2) {
-  html {
-    background-image: url(../img/dark_wall@2X.png);
-    background-size: 300px 300px;
-  }
 }
